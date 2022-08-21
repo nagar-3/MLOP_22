@@ -4,14 +4,14 @@
 import matplotlib.pyplot as plt
 
 # Import datasets, classifiers and performance metrics
-from sklearn import datasets, svm, metrics
+from sklearn import datasets, svm,metrics
 from sklearn.model_selection import train_test_split
-
+from sklearn.metrics import confusion_matrix
 
 digits = datasets.load_digits()
 
 
-
+print("\n\n")
 # flatten the images
 n_samples = len(digits.images)
 data = digits.images.reshape((n_samples, -1))
@@ -40,9 +40,9 @@ for ax, image, prediction in zip(axes, X_test, predicted):
 
 print(f"Classification report for classifier {clf}:\n" f"{metrics.classification_report(y_test, predicted)}\n")
 
-disp = metrics.ConfusionMatrixDisplay.from_predictions(y_test, predicted)
-disp.figure_.suptitle("Confusion Matrix")
-print(f"Confusion matrix:\n{disp.confusion_matrix}")
+disp = confusion_matrix(y_test, predicted)
+#disp.figure_.suptitle("Confusion Matrix")
+print(f"Confusion matrix:\n{disp}")
 
 plt.show()
-
+print("\n\n")
