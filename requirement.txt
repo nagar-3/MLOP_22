@@ -1,6 +1,9 @@
 
-install below pckgs
------------------------
-Python 3.6.5
-matplotlib.pyplot
-sklearn 
+#install below pckgs
+#-----------------------
+#Python 3.6.5
+matplotlib
+scikit-learn
+scikit-image
+numpy
+
