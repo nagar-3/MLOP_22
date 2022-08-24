@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix
 digits = datasets.load_digits()
 
 
-print("\n\n")
+print("\n")
 # flatten the images
 n_samples = len(digits.images)
 data = digits.images.reshape((n_samples, -1))
@@ -45,4 +45,4 @@ disp = confusion_matrix(y_test, predicted)
 print(f"Confusion matrix:\n{disp}")
 
 plt.show()
-print("\n\n")
+print("\n")
