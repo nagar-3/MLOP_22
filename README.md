@@ -11,6 +11,6 @@ Steps:
 5. Run python classification.py
 
 Resut:
--------------------------------------------------------------
+#*-------------------------------------------------------------*
 
 ![image](https://user-images.githubusercontent.com/89742374/186483619-fa5df283-8e82-42ff-9351-ac27e88dc202.png)
