@@ -1,0 +1,291 @@
+
+ Original Image size: (1797, 8, 8) 
+
+---------------------------------------------------------------------
+New resized image shape  (1797, 4, 4) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.8 , Test Accuracy : 0.86 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.82 , Test Accuracy : 0.9 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.84 , Test Accuracy : 0.93 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.93 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.96 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.95 , Test Accuracy : 0.96 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.88 , Test Accuracy : 0.94 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.91 , Test Accuracy : 0.94 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.95 , Test Accuracy : 0.97 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.97 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.8 , Test Accuracy : 0.86 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.82 , Test Accuracy : 0.9 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.84 , Test Accuracy : 0.93 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.93 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.96 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.95 , Test Accuracy : 0.96 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 0.76 , Test Accuracy : 0.83 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 0.8 , Test Accuracy : 0.84 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 0.82 , Test Accuracy : 0.89 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 0.82 , Test Accuracy : 0.91 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 0.91 , Test Accuracy : 0.95 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 0.92 , Test Accuracy : 0.96 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 0.93 , Test Accuracy : 0.95 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.96 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.15 , Test Accuracy : 0.22 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.28 , Test Accuracy : 0.46 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.64 , Test Accuracy : 0.79 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 0.77 , Test Accuracy : 0.83 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 0.81 , Test Accuracy : 0.89 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 0.82 , Test Accuracy : 0.9 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 0.83 , Test Accuracy : 0.91 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.94 
+
+
+New resized image shape  (1797, 4, 4) 
+
+------------------Best Results ----------------------------------
+{'val_acc': 0.97, 'Test_acc': 0.99}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.005 , C: 5
+
+------------------------- dev Report ---------------------------
+Classification report for classifier SVC(C=5, gamma=0.005):
+              precision    recall  f1-score   support
+
+           0       1.00      0.93      0.97        15
+           1       0.96      1.00      0.98        22
+           2       1.00      1.00      1.00        15
+           3       1.00      1.00      1.00        19
+           4       1.00      1.00      1.00        15
+           5       1.00      1.00      1.00        20
+           6       1.00      1.00      1.00        20
+           7       1.00      1.00      1.00        19
+           8       1.00      1.00      1.00        15
+           9       1.00      1.00      1.00        20
+
+    accuracy                           0.99       180
+   macro avg       1.00      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
+
+------------------------- Test Report --------------------------
+Classification report for classifier SVC(C=5, gamma=0.005):
+              precision    recall  f1-score   support
+
+           0       1.00      0.93      0.97        15
+           1       0.96      1.00      0.98        22
+           2       1.00      1.00      1.00        15
+           3       1.00      1.00      1.00        19
+           4       1.00      1.00      1.00        15
+           5       1.00      1.00      1.00        20
+           6       1.00      1.00      1.00        20
+           7       1.00      1.00      1.00        19
+           8       1.00      1.00      1.00        15
+           9       1.00      1.00      1.00        20
+
+    accuracy                           0.99       180
+   macro avg       1.00      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
+---------------------------------------------------------------------
+New resized image shape  (1797, 12, 12) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.97 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.47 , Test Accuracy : 0.45 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.68 , Test Accuracy : 0.69 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.91 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.97 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.96 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.97 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.94 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.94 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.96 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.96 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+
+
+New resized image shape  (1797, 12, 12) 
+
+------------------Best Results ----------------------------------
+{'val_acc': 1.0, 'Test_acc': 0.99}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.001 , C: 3
+
+------------------------- dev Report ---------------------------
+Classification report for classifier SVC(C=3, gamma=0.001):
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        17
+           1       1.00      1.00      1.00        18
+           2       1.00      1.00      1.00        12
+           3       0.94      1.00      0.97        17
+           4       1.00      1.00      1.00        17
+           5       1.00      1.00      1.00        19
+           6       1.00      0.95      0.98        22
+           7       1.00      1.00      1.00        19
+           8       0.95      1.00      0.98        21
+           9       1.00      0.94      0.97        18
+
+    accuracy                           0.99       180
+   macro avg       0.99      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
+
+------------------------- Test Report --------------------------
+Classification report for classifier SVC(C=3, gamma=0.001):
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        17
+           1       1.00      1.00      1.00        18
+           2       1.00      1.00      1.00        12
+           3       0.94      1.00      0.97        17
+           4       1.00      1.00      1.00        17
+           5       1.00      1.00      1.00        19
+           6       1.00      0.95      0.98        22
+           7       1.00      1.00      1.00        19
+           8       0.95      1.00      0.98        21
+           9       1.00      0.94      0.97        18
+
+    accuracy                           0.99       180
+   macro avg       0.99      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
+---------------------------------------------------------------------
+New resized image shape  (1797, 16, 16) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.17 , Test Accuracy : 0.15 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.2 , Test Accuracy : 0.19 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.59 , Test Accuracy : 0.56 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.86 , Test Accuracy : 0.81 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.82 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.82 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.82 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.87 , Test Accuracy : 0.82 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.93 , Test Accuracy : 0.97 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.94 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+
+
+New resized image shape  (1797, 16, 16) 
+
+------------------Best Results ----------------------------------
+{'val_acc': 0.98, 'Test_acc': 0.99}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.001 , C: 1
+
+------------------------- dev Report ---------------------------
+Classification report for classifier SVC(C=1, gamma=0.001):
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        15
+           1       1.00      0.96      0.98        26
+           2       1.00      1.00      1.00        19
+           3       1.00      1.00      1.00        14
+           4       1.00      1.00      1.00        15
+           5       0.95      1.00      0.97        18
+           6       1.00      1.00      1.00        19
+           7       1.00      1.00      1.00        21
+           8       0.94      1.00      0.97        15
+           9       1.00      0.94      0.97        18
+
+    accuracy                           0.99       180
+   macro avg       0.99      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
+
+------------------------- Test Report --------------------------
+Classification report for classifier SVC(C=1, gamma=0.001):
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        15
+           1       1.00      0.96      0.98        26
+           2       1.00      1.00      1.00        19
+           3       1.00      1.00      1.00        14
+           4       1.00      1.00      1.00        15
+           5       0.95      1.00      0.97        18
+           6       1.00      1.00      1.00        19
+           7       1.00      1.00      1.00        21
+           8       0.94      1.00      0.97        15
+           9       1.00      0.94      0.97        18
+
+    accuracy                           0.99       180
+   macro avg       0.99      0.99      0.99       180
+weighted avg       0.99      0.99      0.99       180
+
+
