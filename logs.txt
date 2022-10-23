@@ -1,0 +1,15 @@
+(my_conda_env) root@mlops:~/MLOP_22# pytest  Classification_Best_Model__80_10_10_Split.py -v
+==================================================================== test session starts ====================================================================
+platform linux -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0 -- /root/miniconda3/envs/my_conda_env/bin/python
+cachedir: .pytest_cache
+rootdir: /root/MLOP_22
+collected 2 items
+
+Classification_Best_Model__80_10_10_Split.py::test_Q_2 PASSED                                                                                         [ 50%]
+Classification_Best_Model__80_10_10_Split.py::test_Q_3 PASSED                                                                                         [100%]
+
+===================================================================== 2 passed in 6.73s =====================================================================
+(my_conda_env) root@mlops:~/MLOP_22#
+(my_conda_env) root@mlops:~/MLOP_22#
+(my_conda_env) root@mlops:~/MLOP_22#
+
