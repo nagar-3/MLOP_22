@@ -20,3 +20,11 @@ Model#5:SPlit case#5: train_frac:dev_frac:(0.5, 0.2)
 
 ![image](https://user-images.githubusercontent.com/89742374/198873883-97e261e6-972b-47e7-84f3-39f5d9cef40c.png)
 
+        SVM_Model_mean  SVM_Model_std  DecisionTree_mean  DecisionTree_std  
+Models  
+1                0.982          0.011              0.849             0.084  
+2                0.983          0.008              0.851             0.063  
+3                0.977          0.007              0.851             0.067  
+4                0.979          0.010              0.799             0.020  
+5                0.977          0.015              0.774             0.019  
+
