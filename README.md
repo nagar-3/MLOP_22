@@ -6,9 +6,8 @@ Reff# https://scikit-learn.org/stable/modules/tree.html#classification
 ## [Model Comparison]
 ### Accuracy for SVM and Decision Tree Classifier for each Model(each Split case)
 
+**SVM Vs Decision Tree**
 ```
-## [SVM Vs Decision Tree]
-
 Model#1:SPlit case#1: train_frac:dev_frac:(0.8, 0.1)  
 Model#2:SPlit case#2: train_frac:dev_frac:(0.7, 0.1)  
 Model#3:SPlit case#3: train_frac:dev_frac:(0.6, 0.1)  
