@@ -32,7 +32,7 @@ Model#5:SPlit case#5: train_frac:dev_frac:(0.5, 0.2)
 ```
 ---------------------------------------------------------------------------
         SVM_Model_mean  SVM_Model_std  DecisionTree_mean  DecisionTree_std
-Models
+Model
 1                0.982          0.011              0.849             0.084
 2                0.983          0.008              0.851             0.063
 3                0.977          0.007              0.851             0.067
