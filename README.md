@@ -4,7 +4,7 @@ Reff # https://scikit-learn.org/stable/auto_examples/classification/plot_digits_
 Reff# https://scikit-learn.org/stable/modules/tree.html#classification
 
 ## [Model Comparison]
-**Accuracy for SVM and Decision Tree Classifier for each Model(each Split case)**
+### Accuracy for SVM and Decision Tree Classifier for each Model(each Split case)
 
 **SVM Vs Decision Tree**
 ```
@@ -27,7 +27,7 @@ Model#5:SPlit case#5: train_frac:dev_frac:(0.5, 0.2)
  DTr_acc_model#5    : [0.727, 0.788, 0.768, 0.781, 0.785, 0.777, 0.772, 0.781, 0.783]
  -----------------------------------------------------------------------------------------
 ```
-**Computing the mean and standard deviations of both the classifier's performances.**
+### Computing the mean and standard deviations of both the classifier's performances.
 
 ```
 ---------------------------------------------------------------------------
@@ -41,7 +41,7 @@ Models
 ---------------------------------------------------------------------------
 ```
   
- ***Model Training and Testing results*** 
+ ### Model Training and Testing results 
 
 ```
 Model#1 Best Results:
