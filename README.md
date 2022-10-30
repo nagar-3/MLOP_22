@@ -1,4 +1,4 @@
-#Digits classification
+##[Digits classification]
 
 Reff # https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py  
 Reff# https://scikit-learn.org/stable/modules/tree.html#classification
