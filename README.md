@@ -40,9 +40,8 @@ Models
 5                0.977          0.015              0.774             0.019
 ---------------------------------------------------------------------------
 ```
-***Best Model : SVM***  
-
-
+  
+ ***Model Training and Testing results*** 
 
 ```
 Model#1 Best Results:
