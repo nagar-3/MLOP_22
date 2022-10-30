@@ -41,7 +41,7 @@ Model
 ---------------------------------------------------------------------------
 ```
   
- ### Model Training and Testing results 
+ ### Model Val and Testing results 
 
 ```
 Model#1 Best Results:
