@@ -22,6 +22,7 @@ Press CTRL+C to quit
 root@00383c475b07:/exp#
 root@00383c475b07:/exp#
 ```
+![image](https://user-images.githubusercontent.com/89742374/201590610-54f86ab0-c2d0-486a-9009-9c8acda51269.png)
 
 
 ## model present on [http://172.17.0.1:5000]
@@ -41,6 +42,7 @@ Press CTRL+C to quit
 
 
 ```
+![image](https://user-images.githubusercontent.com/89742374/201590672-f0f4ec9c-4d8f-4306-80c8-0d057c2e9b01.png)
 
 
 ## Testing results
