@@ -1,7 +1,9 @@
+
 # Bonus Question results
 
 To solve this problem i have created to flask app server one is running on container and other is running on base machine(trained model exists on this machine). I have created login in python code where it flask app running inside container will execute http request towards base machine flask app and will received the trained model predicted results.
 
+Please refer attaced logs.txt file for execution steps with respect to their results.
 
 ## Container running on [http://172.17.0.2:5000]
 ```
