@@ -1,9 +1,8 @@
 # Bonus Question results
 
-Bonus Question SOl
-#######################################################
 
-#Container running on http://172.17.0.2
+
+##Container running on http://172.17.0.2
 ```
 --------------------------------------------
 root@00383c475b07:/exp#
@@ -24,7 +23,7 @@ root@00383c475b07:/exp#
 ```
 
 
-#model present on 172.17.0.1
+##model present on 172.17.0.1
 ```
 -------------------------------------------
 (my_conda_env) root@mlops:~/MLOP_22#
@@ -42,7 +41,7 @@ Press CTRL+C to quit
 ```
 
 
-#Testing results
+##Testing results
 ```
 (base) root@mlops:~/MLOP_22#
 (base) root@mlops:~/MLOP_22#
