@@ -1,9 +1,10 @@
 # Bonus Question results
+'''
+To solve this problem i have created to flask app server one is running on container and other is running on base machine(trained model exists on this machine). I have created login in python code where it flask app running inside container will execute http request towards base machine flask app and will received the trained model predicted results.
+```
 
-[To solve this problem i have created to flask app server one is running on conatiner and other is running on base machine(trained model exists on this machine).
-I have created login in python code where it flask app running inside container will execute http request towards base machine flask app and will received the trained model predicted resuts.]
 
-## Container running on http://172.17.0.2
+## Container running on [http://172.17.0.2:5000]
 ```
 --------------------------------------------
 root@00383c475b07:/exp#
@@ -24,7 +25,7 @@ root@00383c475b07:/exp#
 ```
 
 
-## model present on 172.17.0.1
+## model present on [http://172.17.0.1:5000]
 ```
 -------------------------------------------
 (my_conda_env) root@mlops:~/MLOP_22#
@@ -39,6 +40,7 @@ Press CTRL+C to quit
 (my_conda_env) root@mlops:~/MLOP_22#
 (my_conda_env) root@mlops:~/MLOP_22#
 
+
 ```
 
 
@@ -51,4 +53,8 @@ Press CTRL+C to quit
 (base) root@mlops:~/MLOP_22#
 (base) root@mlops:~/MLOP_22#
 (base) root@mlops:~/MLOP_22#
+
+![image](https://user-images.githubusercontent.com/89742374/201590133-08c12c94-99ae-464b-8293-8fec3b574f87.png)
+
 ```
+
