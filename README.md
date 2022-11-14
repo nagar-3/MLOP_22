@@ -52,8 +52,8 @@ Press CTRL+C to quit
 (base) root@mlops:~/MLOP_22#
 (base) root@mlops:~/MLOP_22#
 (base) root@mlops:~/MLOP_22#
+```
 
 ![image](https://user-images.githubusercontent.com/89742374/201590133-08c12c94-99ae-464b-8293-8fec3b574f87.png)
 
-```
 
