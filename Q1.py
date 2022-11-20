@@ -1,4 +1,3 @@
-# Standard scientific Python imports
 # Import datasets, classifiers and performance metrics
 from sklearn import datasets, svm,metrics
 from sklearn.model_selection import train_test_split
@@ -18,22 +17,18 @@ label=digits.target
 random.seed(10)
 seed = random.randint(500)
 
-#define 5 different splits of train/test/valid.
-train_frac_split=0.8
-dev_frac_split=0.1
-
-# Split data into  train, test and dev subsets
-def train_dev_test_split(data, label, train_frac, dev_frac):
-    dev_test_frac = 1 - train_frac
-    x_train, x_dev_test, y_train, y_dev_test = train_test_split(data, label, test_size=dev_test_frac, random_state=seed,shuffle=True)
-    x_test, x_dev, y_test, y_dev = train_test_split(x_dev_test, y_dev_test, test_size=(dev_frac) / dev_test_frac,random_state=seed, shuffle=True)
-    return x_train, y_train, x_dev, y_dev, x_test,y_test
+X_train, X_dev_test, Y_train, Y_dev_test = train_test_split(data, label, random_state=seed,shuffle=False)
+X_test, X_dev, Y_test, Y_dev = train_test_split(X_dev_test, X_dev_test, random_state=seed,shuffle=False)
+print(X_train.shape,X_test.shape,X_dev.shape)
 
 
-
-print("\n\n Model Comparsion in progress.................\n")
+print("\n\n Model Comparsion in progress..................\n")
 
 def save_model(clf,best_param_configi,model_path):
+    if type(clf) == svm.SVC:
+        model_type = "svm"
+    best_model_name = model_type + "_Best_Model" + ".joblib"
+    model_path = best_model_name
     dump(clf, model_path)
     return model_path
 
@@ -46,10 +41,6 @@ def load_model(actual_model_path):
 def training(depth,model_choice):
     for i in range(5):
         best_acc=0
-        best_param_config=''
-        clf_name=''
-        f1_sc=0
-        X_train, y_train, X_dev, y_dev, X_test,y_test=train_dev_test_split(data,digits.target,train_frac_split,dev_frac_split)
         for j in model_choice:
             for k in range(len(depth)):
                 clf,parms=svm_model(k)
@@ -77,8 +68,8 @@ def predict(data,clf):
 
 
 
-#model_choice=["svm"]
-#best_model=training(depth,model_choice)
+model_choice=["svm"]
+best_model=training(depth,model_choice)
 
 print("Best Acc : ",best_acc)
 def test_seed():
