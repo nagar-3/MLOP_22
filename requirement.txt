@@ -1,0 +1,7 @@
+#install below pckgs
+#-----------------------
+Python==3.9.5
+matplotlib==3.2
+scikit-learn== 0.24.1
+scikit-image==0.17.1
+numpy==1.19.4

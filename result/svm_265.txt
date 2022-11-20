@@ -1,0 +1,3 @@
+test accuracy: 0.983
+test macro-f1:0.9830111295643211
+model saved at:models/SVM_Gamma=0.001_C=0.3.joblib
