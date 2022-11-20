@@ -31,7 +31,7 @@ def train_dev_test_split(data, label, train_frac, dev_frac):
 
 
 
-print("\n\n Model Comparsion in progress..................\n")
+print("\n\n Model Comparsion in progress.................\n")
 
 def save_model(clf,best_param_configi,model_path):
     dump(clf, model_path)
