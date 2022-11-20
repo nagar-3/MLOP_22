@@ -3,9 +3,9 @@
 from sklearn import datasets, svm,metrics
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from utills.utill import mean_std
-from utills.model import svm_model,DecisionTree_model,depth
-from utills.utill import label_comp
+from utill import mean_std
+from model import svm_model,DecisionTree_model,depth
+from utill import label_comp
 from joblib import dump, load
 from flask import Flask, jsonify, request
 import numpy as np
